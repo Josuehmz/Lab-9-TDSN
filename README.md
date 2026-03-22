@@ -1,5 +1,5 @@
 # Lab 9 TDSN — Backend (Spring Boot)
-
+## Autor: Josué Hernandez
 API REST segura con Spring Boot 3, Spring Security y Thymeleaf.
 
 ## Arquitectura general
@@ -15,7 +15,7 @@ Browser ──HTTPS──▸ Apache httpd (SSL, ServidorSeguro)
 ```
 
 - **ServidorSeguro**: termina TLS (Let's Encrypt), reverse proxy hacia el contenedor Nginx.
-- **Nginx (apache-client)**: sirve el frontend estático y reenvía `/api/*`, `/login`, `/hello`, `/logout` al backend.
+- **Nginx ([apache-client](https://github.com/Josuehmz/apache-client))**: sirve el frontend estático y reenvía `/api/*`, `/login`, `/hello`, `/logout` al backend.
 - **AppServer**: ejecuta esta aplicación Spring Boot.
 
 ## Stack
@@ -144,7 +144,7 @@ src/main/resources/
 
 Despliegue completo de ambos servicios (backend Spring Boot y frontend Nginx) en instancias EC2:
 
-[![Despliegue en AWS](https://img.youtube.com/vi/-a7xEHltqSo/0.jpg)](https://www.youtube.com/watch?v=-a7xEHltqSo)
+https://www.youtube.com/watch?v=-a7xEHltqSo
 
 ## Evidencias de funcionamiento
 
