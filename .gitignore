@@ -1,0 +1,32 @@
+# Keystores y certificados (nunca subir a repo)
+*.p12
+*.jks
+*.keystore
+myTrustStore
+*.cer
+*.crt
+keystores/
+!src/main/resources/keystore/.gitkeep
+
+# Maven
+target/
+pom.xml.tag
+pom.releaseBackup
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Env local (puede contener secretos)
+.env
+.env.local
+*.env
+
+# Logs
+*.log

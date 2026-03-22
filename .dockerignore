@@ -1,0 +1,9 @@
+.git
+.idea
+.vscode
+target
+*.md
+.env
+.env.*
+docker/apache-client/*.zip
+**/.DS_Store
